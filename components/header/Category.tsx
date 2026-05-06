@@ -30,8 +30,8 @@ const Category = () => {
           <Image
             src="/cosmetic.png"
             alt="promo"
-            width={35}
-            height={35}
+            width={40}
+            height={40}
             className="object-contain"
           />
           <div className="text-[10px]">
@@ -46,7 +46,7 @@ const Category = () => {
         <div className="h-8 w-px bg-gray-600"></div>
 
         {/* 3. მარჯვენა სექცია (Sign in, Favorites, Card) */}
-        <div className="flex items-center gap-6">
+        <div className="flex items-center mr-6 gap-6">
           <div className="flex items-center gap-2 cursor-pointer">
             <User size={18} />
             <span className="text-xs whitespace-nowrap">Sign in</span>
