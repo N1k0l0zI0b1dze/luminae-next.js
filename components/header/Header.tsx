@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Searchbar from "./Searchbar";
 import SocialsLinks from "./SocialsLinks";
 import Category from "./Category";
+import MenuOptions from "./MenuOptions";
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
               alt="luminae"
               width={49}
               height={33}
-              className="w-[49px] h-auto rotate-y-180"
+              className="w-12.25 h-auto rotate-y-180"
             />
           </Link>
           <h1 className="font-bold text-3xl">Luminae</h1>
@@ -35,8 +36,12 @@ const Header = () => {
       </div>
 
       {/* ქვედა სექცია: კატეგორიები (ყოველთვის ქვემოთ იქნება) */}
-      <div className="w-full h-[78px] py-2">
+      <div className="w-full h-19.5 py-2">
         <Category />
+      </div>
+
+      <div className="flex items-center justify-center w-full h-13.25">
+        <MenuOptions />
       </div>
     </header>
   );
