@@ -24,3 +24,15 @@ body {
   color: var(--foreground); */
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Swiper arrows — COLOR */
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgba(67, 67, 67, 1) !important;
+}
+
+/* Swiper arrows — SIZE (100% guarantee override) */
+:root .swiper-button-next:after,
+:root .swiper-button-prev:after {
+  font-size: 10px !important; /* შეცვალე რაც გინდა */
+}
