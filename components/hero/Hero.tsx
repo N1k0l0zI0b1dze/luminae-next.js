@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="w-full flex flex-row items-center justify-start overflow-hidden">
       {/* მარცხენა მხარე - გამოიყენე კვადრატული ფრჩხილები ზომებისთვის */}
-      <div className="relative h-[460px] flex-[547]">
+      <div className="relative h-115 flex-547">
         <Image
           src="/left.png"
           alt="leftImg"
@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
 
       {/* მარჯვენა მხარე */}
-      <div className="relative h-[460px] flex-[893] overflow-hidden">
+      <div className="relative h-115 flex-893 overflow-hidden">
         {/* სურათი - დავუმატოთ filter brightness, რომ Overlay-ს გარეშეც გამუქდეს */}
         <Image
           src="/sky.png"

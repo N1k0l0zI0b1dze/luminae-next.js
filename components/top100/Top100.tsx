@@ -1,11 +1,11 @@
 import Link from "next/link";
-import ProductCards from "./ProductCards";
+import Top100Cards from "./Top100Cards";
 
-const Sales = () => {
+const Top100 = () => {
   return (
     <div className="flex flex-col items-center w-full h-auto mt-21 px-22.5">
       <div className="flex items-center justify-between w-full h-5 bg-white">
-        <p className="text-2xl font-medium">Flash Sales</p>
+        <p className="text-2xl font-medium">Top100</p>
         <Link
           href="#"
           className="flex items-center gap-1 text-sm font-medium hover:text-amber-600"
@@ -13,12 +13,11 @@ const Sales = () => {
           View all <span>&gt;</span>
         </Link>
       </div>
-
-      <div className="flex flex-row w-full h-auto bg-white mt-17">
-        <ProductCards />
+      <div className="flex flex-row w-full h-auto mt-17">
+        <Top100Cards />
       </div>
     </div>
   );
 };
 
-export default Sales;
+export default Top100;
