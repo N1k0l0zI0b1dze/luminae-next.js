@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="w-full flex flex-row items-center justify-start overflow-hidden">
+    <div className="w-full flex flex-row items-center justify-start relative overflow-hidden">
       {/* მარცხენა მხარე - გამოიყენე კვადრატული ფრჩხილები ზომებისთვის */}
       <div className="relative h-115 flex-547">
         <Image
@@ -26,7 +26,7 @@ const Hero = () => {
         />
 
         {/* Overlay - ნაცვლად შავისა, გამოვიყენოთ მუქი ლურჯი გრადიენტი */}
-        <div className="absolute inset-0 bg-linear-to-r from-[#001529]/40 to-[#001529]/20 z-10"></div>
+        <div className="absolute inset-0  z-10"></div>
 
         {/* კონტენტი - z-20 აუცილებელია */}
         <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-white">
@@ -42,6 +42,16 @@ const Hero = () => {
             <ShoppingBag size={20} />
             <span>SHOP NOW</span>
           </button>
+        </div>
+      </div>
+
+      <div className="absolute flex flex-col w-57 h-40.75 top-37.25 left-116.5">
+        <div className="flex flex-col justify-center items-center w-full h-30.75 bg-white">
+          <p className="font-bold text-xl">Summer Essentials</p>
+          <p className="font-bold text-xl text-[rgba(255,46,0,1)]">20% off</p>
+        </div>
+        <div className="flex justify-center items-center w-full h-10 bg-black">
+          <p className="font-normal text-[14px]  text-white">19 Jul-30 Jul</p>
         </div>
       </div>
     </div>
