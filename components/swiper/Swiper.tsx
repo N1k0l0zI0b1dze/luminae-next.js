@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 
 const MagSafeSlider = () => {
   return (
-    <div className="w-full h-55.25  mt-17 px-22.5">
+    <div className="w-full h-55.25  mt-17">
       <div className="w-full h-full px-10 bg-[#F6DED2]">
         <Swiper
           modules={[Navigation]}

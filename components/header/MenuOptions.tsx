@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 
 const categories = [
   { id: 1, slug: "woman", name: "Woman" },

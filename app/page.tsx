@@ -1,5 +1,6 @@
 import Hero from "@/components/hero/Hero";
 import Offers from "@/components/offers/Offers";
+import Offers2 from "@/components/Offers2.tsx/Offers2";
 import Sales from "@/components/sales/Sales";
 import Swiper from "@/components/swiper/Swiper";
 import Top100 from "@/components/top100/Top100";
@@ -14,6 +15,7 @@ const Home = () => {
       <Top100 />
       <Offers />
       <Swiper />
+      <Offers2 />
     </div>
   );
 };
