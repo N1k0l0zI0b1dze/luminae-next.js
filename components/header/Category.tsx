@@ -3,7 +3,7 @@ import { User, Heart, ShoppingBag } from "lucide-react";
 
 const Category = () => {
   return (
-    <div className="flex items-center w-full h-[60px] bg-[#262626] px-[90px] text-white">
+    <div className="flex items-center w-full h-15 bg-[#262626] px-22.5 text-white">
       {/* მთავარი კონტეინერი justify-between-ით აუცილებელია */}
       <div className="flex items-center justify-between w-full">
         {/* 1. მარცხენა სექცია (Categories, USD, English) */}
