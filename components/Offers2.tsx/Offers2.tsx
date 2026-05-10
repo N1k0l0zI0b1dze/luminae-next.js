@@ -62,7 +62,7 @@ const Offers2 = () => {
 
           <div className="relative w-full h-full">
             <Image
-              src="/StrawHat.png"
+              src="/სtrawHat.png"
               alt="straw-hat-girl"
               fill
               className="object-cover"
